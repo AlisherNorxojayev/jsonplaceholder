@@ -10,6 +10,7 @@ class MyWidgte extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Uri url = Uri.parse("https://jsonplaceholder.typicode.com/photos");
     return Scaffold(
       body: FutureBuilder(
         future: getDataPost(),

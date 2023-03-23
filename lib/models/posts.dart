@@ -10,7 +10,7 @@ class Post {
     required this.postId,
   });
 
-  factory Post.FromJson(Map<String,dynamic> data) {
+  factory Post.FromJson(Map<String, dynamic> data) {
     return Post(
         postTitle: data["title"],
         postBody: data["body"],
